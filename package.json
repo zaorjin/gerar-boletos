@@ -70,7 +70,7 @@
     "santander",
     "sicoob"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/index.js",
   "name": "@notlekmelo/gerar-boletos",
   "repository": {
