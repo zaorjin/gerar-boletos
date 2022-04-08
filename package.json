@@ -1,20 +1,56 @@
 {
-  "name": "gerar-boletos",
-  "version": "1.4.5",
+  "_from": "gerar-boletos",
+  "_id": "gerar-boletos@1.4.5",
+  "_inBundle": false,
+  "_integrity": "sha512-pzpBz1uRN++VEr6HzpLmCm5PWpCk81hzKdbOvmVwIL/h2UFcs4f/NgkCAXh4lKLXwrBNpoHMpb16qsj0/7JsgA==",
+  "_location": "/gerar-boletos",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "gerar-boletos",
+    "name": "gerar-boletos",
+    "escapedName": "gerar-boletos",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/gerar-boletos/-/gerar-boletos-1.4.5.tgz",
+  "_shasum": "525e006e28a88e8e3fce33b73a9dba952cb2c4e8",
+  "_spec": "gerar-boletos",
+  "_where": "C:\\BackupKelton\\Projetos\\api-backend-portal-cliente",
+  "author": {
+    "name": "Kelton Melo de Oliveira Fonseca",
+    "email": "keltonmof@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/notlekmelo/gerar-boletos/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "base64-stream": "^1.0.0",
+    "moment": "^2.24.0",
+    "pdfkit": "0.10.0"
+  },
+  "deprecated": false,
   "description": "Gerar boletos para vários bancos",
-  "main": "lib/index.js",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "nodeunit": "0.11.3"
+  },
   "directories": {
     "example": "examples",
     "lib": "lib",
     "test": "tests"
   },
-  "scripts": {
-    "test": "nodeunit ./tests/*test.js && nodeunit ./tests/boleto/bancos/*test.js && nodeunit ./tests/boleto/*test.js",
-    "lint": "eslint .",
-    "gerarBradesco": "node ./examples/gerar-boleto-bradesco.js",
-    "gerarCecred": "node ./examples/gerar-boleto-cecred.js",
-    "gerarBrasil": "node ./examples/gerar-boleto-BancoDoBrasil.js"
+  "engines": {
+    "node": ">=10.0.0"
   },
+  "homepage": "https://github.com/Romulosanttos/gerar-boletos#readme",
   "keywords": [
     "gerador",
     "boleto",
@@ -34,26 +70,19 @@
     "santander",
     "sicoob"
   ],
-  "author": {
-    "name": "Rômulo Cabral Santos",
-    "email": "romulosanttos1@gmail.com",
-    "homepage": "https://romulosanttos.github.io/"
-  },
   "license": "ISC",
-  "engines": {
-    "node": ">=10.0.0"
-  },
-  "dependencies": {
-    "base64-stream": "^1.0.0",
-    "moment": "^2.24.0",
-    "pdfkit": "0.10.0"
-  },
-  "devDependencies": {
-    "eslint": "^6.5.1",
-    "nodeunit": "0.11.3"
-  },
+  "main": "lib/index.js",
+  "name": "@notlekmelo/gerar-boletos",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Romulosanttos/gerar-boletos.git"
-  }
+    "url": "git+https://github.com/notlekmelo/gerar-boletos.git"
+  },
+  "scripts": {
+    "gerarBradesco": "node ./examples/gerar-boleto-bradesco.js",
+    "gerarBrasil": "node ./examples/gerar-boleto-BancoDoBrasil.js",
+    "gerarCecred": "node ./examples/gerar-boleto-cecred.js",
+    "lint": "eslint .",
+    "test": "nodeunit ./tests/*test.js && nodeunit ./tests/boleto/bancos/*test.js && nodeunit ./tests/boleto/*test.js"
+  },
+  "version": "1.4.5"
 }
