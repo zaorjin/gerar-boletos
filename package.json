@@ -28,7 +28,7 @@
     "email": "keltonmof@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/notlekmelo/gerar-boletos/issues"
+    "url": "https://github.com/zaorjin/gerar-boletos/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -50,7 +50,7 @@
   "engines": {
     "node": ">=10.0.0"
   },
-  "homepage": "https://github.com/Romulosanttos/gerar-boletos#readme",
+  "homepage": "https://github.com/zaorjin/gerar-boletos#readme",
   "keywords": [
     "gerador",
     "boleto",
@@ -72,10 +72,10 @@
   ],
   "license": "MIT",
   "main": "lib/index.js",
-  "name": "@notlekmelo/gerar-boletos",
+  "name": "@zaorjin/gerar-boletos",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/notlekmelo/gerar-boletos.git"
+    "url": "git+https://github.com/zaorjin/gerar-boletos.git"
   },
   "scripts": {
     "gerarBradesco": "node ./examples/gerar-boleto-bradesco.js",
